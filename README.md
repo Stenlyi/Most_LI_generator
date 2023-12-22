@@ -13,9 +13,14 @@ Mužský rod: Generuje text s převahou sloves v mužském rodě.
 Ženský rod: Generuje text s převahou sloves v ženském rodě.
 Střední rod: Generuje text s převahou sloves ve středním rodě.
 
-Struktura souborů
-LI-Most-generátor-2.0.py: Hlavní skript pro generování textu.
-README.md: Tento soubor obsahující informace o použití a popisu projektu.
+Soubory
+`LI-Most-generátor-2.0.py`: Hlavní skript pro generování textu.
+`README.md`: Tento soubor obsahující informace o použití a popisu projektu.
+`LoremIpsum.txt`: Obsahuje generovaný text.
+
+Zápis do souboru
+Výsledný text je ukládán do souboru `LoremIpsum.txt` v kořenovém adresáři projektu.
+
 
 Poznámky
 Tento projekt byl vytvořen jako součást školního úkolu.
