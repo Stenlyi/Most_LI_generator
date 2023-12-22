@@ -122,9 +122,15 @@ def generuj_text(paragrafy, rod):
         text += "\n\n"
     return text.strip().capitalize() + random.choice([".", "?"])
 
+def zapis_do_souboru(text):
+    with open('LoremIpsum.txt', 'w', encoding='utf-8') as file:
+        file.write(text)
+
 print("Vítej v Mosteckém lorem ipsum generátoru!")
 rod = input("Jaký rod textu chceš generovat (mužský/ženský/střední)? ")
 pocet_paragrafu = int(input("Kolik odstavců chceš vygenerovat? "))
 
 generovany_text = generuj_text(pocet_paragrafu, rod)
 print(generovany_text)
+
+zapis_do_souboru(generovany_text)
