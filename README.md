@@ -13,17 +13,9 @@ Mužský rod: Generuje text s převahou sloves v mužském rodě.
 Ženský rod: Generuje text s převahou sloves v ženském rodě.
 Střední rod: Generuje text s převahou sloves ve středním rodě.
 
-Technické informace
-
-Kód
-Kód je napsán v jazyce Python a využívá náhodné generování kombinací slov a sloves pro vytvoření textu.
-
-Sestavení
-Pro spuštění kódu je potřeba mít nainstalovaný Python 3.
-
 Struktura souborů
-generátor.py: Hlavní skript pro generování textu.
+LI-Most-generátor-2.0.py: Hlavní skript pro generování textu.
 README.md: Tento soubor obsahující informace o použití a popisu projektu.
 
 Poznámky
-Tento projekt byl vytvořen jako součást školního úkolu s cílem simulovat Mostecký dialekt v generovaném textu.
+Tento projekt byl vytvořen jako součást školního úkolu.
