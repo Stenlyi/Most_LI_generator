@@ -117,8 +117,11 @@ def generuj_text(paragrafy, rod):
                         syllable = "".join(random.sample(slabyky, random.randint(1, 3)))
                     text += syllable + " "
                 else:
-                    sloveso = random.choice(slovesa_v_rode)
-                    text += sloveso + " "
+                    slovo = random.choice(slova)
+                    index = random.randint(0, len(slovo))
+                    letter = random.choice(slabyky)
+                    slovo = slovo[:index] + letter + slovo[index:]
+                    text += slovo + " "
         text += "\n\n"
     return text.strip().capitalize() + random.choice([".", "?"])
 
